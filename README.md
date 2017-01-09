@@ -8,7 +8,7 @@ Bugly的升级包虽然出了aar包及依赖，但是里面并没有打包所需
 
 需要添加repository声明：
 ```gradle
-    maven { url 'https://dl.bintray.com/msdx/maven' }
+    jcenter()
 ```
 然后添加依赖：
 ```gradle
