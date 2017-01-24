@@ -5,6 +5,7 @@ Tencent Library
 需要添加repository声明：
 ```gradle
     jcenter()
+    maven { url: 'https://dl.bintray.com/msdx/maven'} // use this if the artifact wasn't included in jcenter.
 ```
 
 ##CrashReport Upgrade
@@ -18,4 +19,10 @@ Gradle 依赖：
 注意：上面的依赖不包含nativecrashreport，如果需要，请添加以下依赖：
 ```gradle
     compile 'com.tencent.bugly:nativecrashreport:3.1.0'
+```
+
+##TBS x5内核
+
+```gradle
+    compile 'com.githang.tencent:tbs:3.0.0.1038'
 ```
