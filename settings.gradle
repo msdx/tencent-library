@@ -1,1 +1,1 @@
-include ':app', ':crashreportupgrade'
+include ':crashreportupgrade'
