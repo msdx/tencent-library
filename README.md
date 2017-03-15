@@ -8,7 +8,20 @@ Tencent Library
     maven { url: 'https://dl.bintray.com/msdx/maven'} // use this if the artifact wasn't included in jcenter.
 ```
 
-##CrashReport Upgrade
+## CrashReport
+Bugly的升级包虽然出了aar包及依赖，但是里面并没有打包所需的AndroidManifest及其他资源文件，所以这里对其再次打包并发布。
+
+Gradle 依赖：
+```gradle
+    compile 'com.githang.tencent:crashreport:2.4.0'
+```
+
+注意：上面的依赖不包含nativecrashreport，如果需要，请添加以下依赖：
+```gradle
+    compile 'com.tencent.bugly:nativecrashreport:3.1.2'
+```
+
+## CrashReport Upgrade
 Bugly的升级包虽然出了aar包及依赖，但是里面并没有打包所需的AndroidManifest及其他资源文件，所以这里对其再次打包并发布。
 
 Gradle 依赖：
@@ -21,7 +34,7 @@ Gradle 依赖：
     compile 'com.tencent.bugly:nativecrashreport:3.1.0'
 ```
 
-##TBS x5内核
+## TBS x5内核
 
 ```gradle
     compile 'com.githang.tencent:tbs:3.0.0.1038'
