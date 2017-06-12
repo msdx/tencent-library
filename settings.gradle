@@ -1,1 +1,1 @@
-include ':crashreportupgrade', ':tbs', ':bugly', ':mid'
+include ':crashreportupgrade', ':tbs', ':bugly', ':mid', ':mta'
