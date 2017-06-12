@@ -39,3 +39,10 @@ Gradle 依赖：
 ```gradle
     compile 'com.githang.tencent:tbs:3.0.0.1038'
 ```
+
+## mid
+
+Gradle 依赖：
+```groovy
+compile 'com.githang.tencent:mid:3.71'
+```
