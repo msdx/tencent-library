@@ -1,11 +1,20 @@
 Tencent Library
-===
+====
+
+Library|Latest Version
+:---:|:---:
+CrashReport| [ ![Download](https://api.bintray.com/packages/msdx/maven/CrashReport/images/download.svg) ](https://bintray.com/msdx/maven/CrashReport/_latestVersion) 
+CrashReport Upgrade| [ ![Download](https://api.bintray.com/packages/msdx/maven/CrashReport_Upgrade/images/download.svg) ](https://bintray.com/msdx/maven/CrashReport_Upgrade/_latestVersion) 
+TBS| [ ![Download](https://api.bintray.com/packages/msdx/maven/TBS/images/download.svg) ](https://bintray.com/msdx/maven/TBS/_latestVersion) 
+Mid| [ ![Download](https://api.bintray.com/packages/msdx/maven/Tencent-Mid/images/download.svg) ](https://bintray.com/msdx/maven/Tencent-Mid/_latestVersion) 
+
+----
 
 用于将腾讯的一些公共第三方库打包为AAR并上传，以方便集成。
 需要添加repository声明：
 ```gradle
     jcenter()
-    maven { url: 'https://dl.bintray.com/msdx/maven'} // use this if the artifact wasn't included in jcenter.
+    maven { url 'https://dl.bintray.com/msdx/maven'} // use this if the artifact wasn't included in jcenter.
 ```
 
 ## CrashReport
@@ -40,7 +49,7 @@ Gradle 依赖：
     compile 'com.githang.tencent:tbs:3.0.0.1038'
 ```
 
-## mid
+## Mid
 
 Gradle 依赖：
 ```groovy
