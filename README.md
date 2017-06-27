@@ -57,13 +57,23 @@ Gradle 依赖：
 compile 'com.githang.tencent:mid:3.71'
 ```
 
+AndroidManifest.xml
+```xml
+<!--MID3.5以上版本请务必添加此配置-->
+    <provider
+        android:name="com.tencent.mid.api.MidProvider"
+        android:authorities="${applicationId}.TENCENT.MID.V3"
+        android:exported="true" >
+    </provider>
+```
+
 ## MTA
 
 so: arm64-v8a, armeabi, armeabi-v7a, mips, mips64, x86, x86_64
 
 Gradle 依赖：
 ```groovy
-compile 'com.githang.tencent:mta:3.0.0'
+compile 'com.githang.tencent:mta:3.1.0'
 ```
 
 AndroidManifest.xml
