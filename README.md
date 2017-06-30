@@ -36,7 +36,7 @@ Bugly的升级包虽然出了aar包及依赖，但是里面并没有打包所需
 
 Gradle 依赖：
 ```gradle
-    compile 'com.githang.tencent:crashreport_upgrade:1.2.1'
+    compile 'com.githang.tencent:crashreport_upgrade:1.3.1'
 ```
 
 注意：上面的依赖不包含nativecrashreport，如果需要，请添加以下依赖：
