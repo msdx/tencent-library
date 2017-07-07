@@ -23,5 +23,6 @@ android {
 dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     compile 'com.githang.tencent:mid:3.71'
+    compile 'org.slf4j:slf4j-api:1.7.21'
 }
 apply from: '../bintray.gradle'
