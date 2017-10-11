@@ -6,7 +6,7 @@ Library|Latest Version
 CrashReport| [ ![Download](https://api.bintray.com/packages/msdx/maven/CrashReport/images/download.svg) ](https://bintray.com/msdx/maven/CrashReport/_latestVersion) 
 CrashReport Upgrade| [ ![Download](https://api.bintray.com/packages/msdx/maven/CrashReport_Upgrade/images/download.svg) ](https://bintray.com/msdx/maven/CrashReport_Upgrade/_latestVersion) 
 TBS| [ ![Download](https://api.bintray.com/packages/msdx/maven/TBS/images/download.svg) ](https://bintray.com/msdx/maven/TBS/_latestVersion) 
-Mid| [ ![Download](https://api.bintray.com/packages/msdx/maven/Tencent-Mid/images/download.svg) ](https://bintray.com/msdx/maven/Tencent-Mid/_latestVersion) 
+Mid| 已停止维护，请使用官方的库。
 MTA| [ ![Download](https://api.bintray.com/packages/msdx/maven/Tencent-MTA/images/download.svg) ](https://bintray.com/msdx/maven/Tencent-MTA/_latestVersion) 
 
 ----
@@ -52,19 +52,9 @@ Gradle 依赖：
 
 ## Mid
 
-Gradle 依赖：
+请使用如下官方地址，目前最新版本为： [ ![Download](https://api.bintray.com/packages/lc123/maven/tencent-mid/images/download.svg) ](https://bintray.com/lc123/maven/tencent-mid/_latestVersion)
 ```groovy
-compile 'com.githang.tencent:mid:3.71'
-```
-
-AndroidManifest.xml
-```xml
-<!--MID3.5以上版本请务必添加此配置-->
-    <provider
-        android:name="com.tencent.mid.api.MidProvider"
-        android:authorities="${applicationId}.TENCENT.MID.V3"
-        android:exported="true" >
-    </provider>
+compile 'com.tencent.mid:mid:3.72.4-alpha'
 ```
 
 ## MTA
