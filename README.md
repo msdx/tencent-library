@@ -63,16 +63,11 @@ so: arm64-v8a, armeabi, armeabi-v7a, mips, mips64, x86, x86_64
 
 Gradle 依赖：
 ```groovy
-compile 'com.githang.tencent:mta:3.1.0'
+compile 'com.githang.tencent:mta:3.1.41-alpha'
 ```
 
 AndroidManifest.xml
 ```xml
-    <provider
-        android:name="com.tencent.mid.api.MidProvider"
-        android:authorities="${applicationId}.TENCENT.MID.V3"
-        android:exported="true" >
-    </provider>
     <meta-data android:name="TA_APPKEY" android:value="ABCDEFG12233456"/>
     <!-- 请将value改为app发布对应的渠道，不同的发布渠道使用不同的名字 < -->
     <meta-data android:name="InstallChannel" android:value="play"/>

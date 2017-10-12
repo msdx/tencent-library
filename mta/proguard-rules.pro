@@ -24,6 +24,7 @@
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
 
--keep class com.tencent.stat.**  {* ;}
+-keep class com.tencent.stat.**  { *;}
+-keep class com.tencent.mid.** { *;}
 -dontwarn org.apache.thrift.server.*
 -dontwarn org.apache.thrift.transport.*
