@@ -32,11 +32,11 @@ Gradle 依赖：
 ```
 
 ## CrashReport Upgrade
-Bugly的升级包虽然出了aar包及依赖，但是里面并没有打包所需的AndroidManifest及其他资源文件，所以这里对其再次打包并发布。
+Bugly的升级sdk依赖虽然包含了AndroidManifest及其他资源文件，但是没有包含混淆规则，所以这里对其再次打包并发布。
 
 Gradle 依赖：
 ```gradle
-    compile 'com.githang.tencent:crashreport_upgrade:1.3.1'
+    compile 'com.githang.tencent:crashreport_upgrade:1.3.5'
 ```
 
 注意：上面的依赖不包含nativecrashreport，如果需要，请添加以下依赖：
