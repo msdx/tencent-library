@@ -47,7 +47,7 @@ Gradle 依赖：
 ## TBS x5内核
 
 ```gradle
-    compile 'com.githang.tencent:tbs:3.5.0.1004'
+    implementation 'com.githang.tencent:tbs:3.6.0.1371'
 ```
 
 ## Mid
